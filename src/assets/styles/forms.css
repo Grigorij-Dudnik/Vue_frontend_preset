@@ -1,0 +1,63 @@
+/* Frontend/src/assets/styles/forms.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center; /* Center all text */
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form select {
+  padding: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.75rem;
+  background-color: darkblue; /* Change button color to dark blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #00008b; /* Slightly darker shade on hover */
+}
+
+/* Style for the dropdown to look nicer */
+form select {
+  appearance: none;
+  background-color: var(--color-background-soft);
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%204%205%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M2%200L0%202h4L2%200zM2%205L0%203h4L2%205z%22/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 0.5rem top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  padding-right: 1.5rem;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Darker background color */
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
